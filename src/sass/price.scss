@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section_price {
+  background-color: #efb95f;
+  text-align: center;
+}
+
+.price_text {
+  padding-top: 45px;
+  margin-bottom: 45px;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.price_text::after {
+  content: ' ★ ';
+  color: #773b09;
+}
+
+.price_text::before {
+  content: ' ★ ';
+  color: #773b09;
+}
+
+.bang_card_conteiner {
+  padding-bottom: 60px;
+}
+
+.bang_card {
+  background-color: #cc7e2c;
+  border-radius: 20px;
+  border: 1.5px solid;
+  margin: 0 30px 20px 30px;
+  padding: 11px 5px 9px 5px;
+}
+
+.perehod {
+  cursor: pointer;
+}
+
+.card_image {
+  width: 140px;
+  border: 1px solid;
+}
+
+.card_text {
+  padding: 0 10px 0 10px;
+}
+
+.card_price {
+  font-size: 20px;
+}
+
+.perehod_href {
+  text-decoration: none;
+  color: #272323;
+}
+
+.perehod {
+  border: 2px solid;
+  border-radius: 40px;
+  background-color: #efb95f;
+}
+
+.big_screen_conteiner {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .bang_card_conteiner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card_image {
+    width: 120px;
+  }
+
+  .bang_card:hover {
+    transform: scale(1.2);
+  }
+
+  .perehod_text {
+    padding: 0 5px 0 5px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bang_card {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .big_screen_conteiner {
+    display: block;
+  }
+}
