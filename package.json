@@ -9,10 +9,10 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://vladshev74.github.io/BangWebsiteRepo",
+  "homepage": "https://github.com/vadympichurin/FE_8_Game",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VladShev74/BangWebsiteRepo.git"
+    "url": "git+https://github.com/vadympichurin/FE_8_Game.git"
   },
   "author": "Vlad Shevchuk",
   "license": "MIT",
